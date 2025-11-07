@@ -18,7 +18,7 @@ console.log("\nExibir todos os Elementos da pilha: ");
 
 pilha.printStack();
 
-console.log("\nAdicionar Elemento 11: ");
+console.log("\nAdicionar Elemento Prato Roxo: ");
 
 pilha.push("Prato Roxo");
 

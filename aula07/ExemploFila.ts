@@ -1,8 +1,8 @@
-import {Queue} from "./Queue";
+import { Queue } from "./Queue";
 
 const fila = new Queue<number>()
 
-for (let i = 1; i <= 10; i++){
+for (let i = 1; i <= 10; i++) {
     fila.enqueue(i);
 }
 
@@ -17,7 +17,7 @@ console.log("\nExibir todos os Elementos da fila: ");
 fila.printQueue();
 
 console.log("\nAdicionar Elemento 11: ");
-            
+
 fila.enqueue(11);
 
 console.log("\nExibir todos os Elementos da fila: ");
@@ -37,3 +37,12 @@ console.log("\nLimpar a fila");
 fila.clear();
 
 console.log("\nA fila está vazia? " + fila.isEmpty());
+
+
+/*
+    Array= 2 , 3 , 7
+
+    Array[1] = 15
+
+    Array= 2 , 15 , 7
+*/
